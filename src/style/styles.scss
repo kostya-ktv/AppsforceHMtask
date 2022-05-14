@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: "UbuntuBold";
+   src: url("../Assets/Fonts/UbuntuMono-Bold.ttf")
+  }
+@font-face {
+   font-family: "UbuntuBoldRegular";
+   src: url("../Assets/Fonts/UbuntuMono-Regular.ttf")
+  }
+
+
+html { 
+   font-family: UbuntuBoldRegular;
+   color: rgb(255,255,255);
+   font-size: 16px;
+}
+body {
+   height: 100vh;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
